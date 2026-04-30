@@ -14,21 +14,22 @@ A RESTful API built with Python FastAPI that digitally manages the Limkokwing Un
 
 ## Project Structure
 
-```
-project/
-├── main.py        # Entry point
-├── models.py      # OOP classes and sample data
-├── routes.py      # API endpoints
-├── README.md
-└── .gitignore
-```
+````
+OOP2/
+├── main.py           # FastAPI application entry point
+├── models.py         # Pydantic data models & in-memory data stores
+├── routes.py         # All API route handlers (async)
+├── README.md         # Project documentation
+├── .gitignore        # Git ignore rules (venv, __pycache__, .env)
+└── requirements.txt  # Python dependencies
+
 
 ## Installation
 
 ```bash
 pip install fastapi uvicorn
 uvicorn main:app --reload
-```
+````
 
 ## API Endpoints
 
